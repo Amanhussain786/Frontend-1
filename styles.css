@@ -1,0 +1,92 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar styles */
+nav {
+    background-color: #333;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav img {
+    max-height: 40px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header styles */
+header {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header-images img {
+    max-width: 50%;
+    height: auto;
+}
+
+/* About Us section styles */
+#about {
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Special Recipes section styles */
+#special-recipes {
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Testimonials section styles */
+#testimonials {
+    background-color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Call to Action section styles */
+#cta {
+    background-color: #333;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#cta h2, #cta p {
+    color: white;
+}
+
+#cta button {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
